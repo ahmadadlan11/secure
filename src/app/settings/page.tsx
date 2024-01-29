@@ -1,5 +1,4 @@
 import Image from "next/image";
-import React from "react";
 
 export default function SettingsPage() {
   return (
@@ -9,13 +8,15 @@ export default function SettingsPage() {
         SECONDS
       </div>
       <div className="lg:scale-100 scale-75">
-        <Image
-          src="/settings-btn.svg"
-          alt="btn"
-          width={377}
-          height={128}
-          className="hover:cursor-pointer"
-        />
+        <a href="https://github.com/ahmadadlan11/secure">
+          <Image
+            src="/settings-btn.svg"
+            alt="btn"
+            width={377}
+            height={128}
+            className="hover:cursor-pointer"
+          />
+        </a>
       </div>
     </div>
   );
